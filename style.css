@@ -329,7 +329,7 @@ p{
     padding-top: 10px;
     font-size: 10px;
 }
-#services-2 .service-top p{
+#services .service-top p{
     font-size: 1rem;
     margin-top: 5px;
     line-height: 2.5rem;
@@ -337,14 +337,14 @@ p{
     letter-spacing: .05rem;
 
 }
-#services-2 .service-bottom{
+#services .service-bottom{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 50px;
 }
-#services-2 .services-item{
+#services .services-item{
     width: 300px;
     height: 300px;
     flex-basis: 80%;
@@ -361,7 +361,7 @@ p{
     z-index: 1;
     overflow: hidden;
 }
-#services-2 .services-item::after{
+#services .services-item::after{
     content: '';
     position: absolute;
     left: 0;
@@ -372,35 +372,35 @@ p{
     opacity: .;
     z-index: -1;
 }
-#services-2 .service-bottom .icon{
+#services .service-bottom .icon{
     height: 30px;
     width: 30px;
     margin-bottom: 20px;
     display: flex;
     flex-direction: row;
 }
-#services-2 .service-bottom .icon h2{
+#services .service-bottom .icon h2{
     padding-left: 10px;
 }
-#services-2 .services-item h2{
+#services .services-item h2{
     font-size: 2rem;
     color: white;
     margin-bottom: 10px;
     text-transform: uppercase;
     text-align: left;
 }
-#services-2 .services-item h2 a{
+#services .services-item h2 a{
     color: white;
 }
-#services-2 .services-item h2 a:hover{
+#services .services-item h2 a:hover{
     color: crimson;
 }
-#services-2 .services-item p{
+#services .services-item p{
     color: white;
     text-align: left;
     font-family: 'Montserrat';
 }
-#services-2 .service-top p{
+#services .service-top p{
     color: black;
     font-size: 1.4rem;
     margin-top: 5px;
