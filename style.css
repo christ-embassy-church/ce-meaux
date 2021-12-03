@@ -372,7 +372,7 @@ p{
     opacity: .5;
     z-index: -1;
 }
-#services .services-bottom .icon{
+#services .service-bottom .icon{
     height: 30px;
     width: 30px;
     margin-bottom: 20px;
@@ -637,6 +637,7 @@ p{
     height: 50px;
     width: 50px;
     margin: 10px 0px;
+    flex-direction: row;
 }
 #footer .social-item img{
     filter: grayscale(1);
